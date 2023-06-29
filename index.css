@@ -1,0 +1,141 @@
+*,
+*::after,
+*::before {
+  padding: 0.00001px;
+  margin: 0.0001px;
+  font-family: inherit;
+}
+
+body {
+   
+  background-image:repeating-conic-gradient(rgb(176, 126, 223) 10%,rgb(99, 123, 228) 20%);   
+  background-repeat: no-repeat;
+  background-color: #333332;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16.5px;
+}
+
+body,
+html {
+  height: auto;
+  font-family: sans-serif;
+}
+
+button {
+  cursor: pointer;
+  border: 0px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  text-align: end;
+  width: 100%;
+  color: #484646;
+  border: 0px;
+  font-size: 4rem;
+}
+
+#first {
+  border: 3px solid black;
+  border-radius: 85px;
+  width: 100%;
+  max-width: 281px;
+  background-color: white;
+  padding: 2rem 1rem;
+  margin: 14px 0px;
+}
+
+.header {
+  margin-top: 90px;
+  padding: 12px;
+}
+
+.footer > * + * {
+  margin-top: 1rem;
+}
+
+.footer > *:last-child {
+  gap: 0.1rem;
+}
+
+.btn_group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+  
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35%;
+  width: 100px;
+  height: 60px;
+  color: #ffffff;
+  font-size: 20px;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.dot{
+  width: 232px;
+}
+
+.btn.btn-grow {
+  flex-grow: 1;
+  border-radius: 40px;
+  
+}
+
+.btn:hover {
+  transform: translate(-2px, -3px);
+}
+
+.btn.active {
+  background-color: #ffffff;
+  color: #352306;
+  box-shadow: 0 0 50px 15px #48abe0;
+}
+
+.btn-grey {
+  background-color: #9f9f9f;
+  color: #2422ad;
+}
+
+.btn-grey:hover {
+
+  size: 100px;;
+}
+
+.btn-dark-grey {
+  size: 1000px;
+  background-color: #313131;
+}
+
+.btn-dark-grey:hover {
+  background-color: #999999;
+}
+
+.btn-blue {
+  background-color: #54b2ff;
+}
+
+.btn-blue:hover {
+  background-color: #23547c;
+}
+.glow {
+  color: rgb(156, 35, 35);
+  text-shadow: rebeccapurple 0 0 10px;
+ }
+ @keyframes shadows {
+  0% { text-shadow: #48abe0 0 0 10px; }
+  50% { text-shadow: blueviolet 0 0 10px; }
+  75% { text-shadow: rebeccapurple 0 0 10px;}
+  100% { text-shadow: #48abe0 0 0 10px; }
+ }
+ 
+
+ 
